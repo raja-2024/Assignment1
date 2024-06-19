@@ -1,0 +1,101 @@
+[
+    {
+        "country": "India",
+        "name": "Virat Kohli",
+        "age": 35,
+        "role": "Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm medium",
+        "international_debut": {
+            "test": "20 June 2011",
+            "odi": "18 August 2008",
+            "t20": "12 June 2010"
+        },
+        "bio": "Virat Kohli is one of the most prolific batsmen in modern cricket. Known for his aggressive playing style and consistency, he has set numerous records and is considered one of the greatest batsmen of all time."
+    },
+    {
+        "country": "India",
+        "name": "Rohit Sharma",
+        "age": 37,
+        "role": "Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm offbreak",
+        "international_debut": {
+            "test": "6 November 2013",
+            "odi": "23 June 2007",
+            "t20": "19 September 2007"
+        },
+        "bio": "Rohit Sharma is known for his elegant batting style and ability to play big innings. He holds the record for the highest individual score in a One Day International match with 264 runs."
+    },
+    {
+        "country": "India",
+        "name": "Jasprit Bumrah",
+        "age": 30,
+        "role": "Bowler",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm fast",
+        "international_debut": {
+            "test": "5 January 2018",
+            "odi": "23 January 2016",
+            "t20": "26 January 2016"
+        },
+        "bio": "Jasprit Bumrah is known for his unique bowling action and deadly yorkers. He is one of the top fast bowlers in the world and a crucial player for India in all formats."
+    },
+    {
+        "country": "India",
+        "name": "Ravindra Jadeja",
+        "age": 35,
+        "role": "Allrounder",
+        "batting_style": "Left-hand bat",
+        "bowling_style": "Left-arm orthodox",
+        "international_debut": {
+            "test": "13 December 2012",
+            "odi": "8 February 2009",
+            "t20": "10 February 2009"
+        },
+        "bio": "Ravindra Jadeja is an exceptional allrounder known for his left-arm spin bowling and aggressive batting. His fielding is also top-notch, making him a valuable player for the Indian team."
+    },
+    {
+        "country": "India",
+        "name": "KL Rahul",
+        "age": 32,
+        "role": "Wicketkeeper Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm medium",
+        "international_debut": {
+            "test": "26 December 2014",
+            "odi": "11 June 2016",
+            "t20": "18 June 2016"
+        },
+        "bio": "KL Rahul is a versatile batsman who can play both as an opener and in the middle order. He is also a reliable wicketkeeper and has been a key player for India in recent years."
+    },
+    {
+        "country": "India",
+        "name": "Hardik Pandya",
+        "age": 30,
+        "role": "Allrounder",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm fast-medium",
+        "international_debut": {
+            "test": "26 July 2017",
+            "odi": "16 October 2016",
+            "t20": "26 January 2016"
+        },
+        "bio": "Hardik Pandya is an explosive allrounder known for his hard-hitting batting and handy medium-pace bowling. He is a match-winner who can change the course of the game with his performances."
+    },
+    {
+        "country": "India",
+        "name": "Rishabh Pant",
+        "age": 26,
+        "role": "Wicketkeeper Batsman",
+        "batting_style": "Left-hand bat",
+        "bowling_style": "Right-arm offbreak",
+        "international_debut": {
+            "test": "18 August 2018",
+            "odi": "21 October 2018",
+            "t20": "1 February 2017"
+        },
+        "bio": "Rishabh Pant is known for his fearless batting and exceptional wicketkeeping skills. His aggressive approach and ability to score quick runs make him a valuable asset in all formats."
+    }
+]
+ 

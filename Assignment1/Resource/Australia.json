@@ -1,0 +1,101 @@
+[
+    {
+        "country": "Australia",
+        "name": "Steve Smith",
+        "age": 34,
+        "role": "Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm legbreak",
+        "international_debut": {
+            "test": "13 July 2010",
+            "odi": "19 February 2010",
+            "t20": "5 February 2010"
+        },
+        "bio": "Steve Smith is one of the best batsmen of his generation, known for his unorthodox technique and exceptional consistency. He has been a key player for Australia in all formats of the game."
+    },
+    {
+        "country": "Australia",
+        "name": "David Warner",
+        "age": 37,
+        "role": "Batsman",
+        "batting_style": "Left-hand bat",
+        "bowling_style": "Right-arm legbreak",
+        "international_debut": {
+            "test": "1 December 2011",
+            "odi": "18 January 2009",
+            "t20": "11 January 2009"
+        },
+        "bio": "David Warner is a dynamic opener known for his aggressive batting style. He is capable of taking the game away from the opposition in a short period and has been a mainstay in Australia's batting lineup."
+    },
+    {
+        "country": "Australia",
+        "name": "Pat Cummins",
+        "age": 31,
+        "role": "Bowler",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm fast",
+        "international_debut": {
+            "test": "17 November 2011",
+            "odi": "19 October 2011",
+            "t20": "13 October 2011"
+        },
+        "bio": "Pat Cummins is one of the premier fast bowlers in world cricket. His pace, accuracy, and ability to generate bounce make him a formidable opponent, and he is also the captain of the Australian Test team."
+    },
+    {
+        "country": "Australia",
+        "name": "Glenn Maxwell",
+        "age": 35,
+        "role": "Allrounder",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm offbreak",
+        "international_debut": {
+            "test": "2 March 2013",
+            "odi": "25 August 2012",
+            "t20": "5 September 2012"
+        },
+        "bio": "Glenn Maxwell is an explosive allrounder known for his powerful hitting and useful off-spin bowling. He is a versatile player who can change the course of a match in a matter of overs."
+    },
+    {
+        "country": "Australia",
+        "name": "Mitchell Starc",
+        "age": 34,
+        "role": "Bowler",
+        "batting_style": "Left-hand bat",
+        "bowling_style": "Left-arm fast",
+        "international_debut": {
+            "test": "1 December 2011",
+            "odi": "20 October 2010",
+            "t20": "7 September 2012"
+        },
+        "bio": "Mitchell Starc is renowned for his fast and lethal bowling, particularly his inswinging yorkers. He has been a crucial player for Australia, especially in limited-overs cricket, and has taken many key wickets."
+    },
+    {
+        "country": "Australia",
+        "name": "Marnus Labuschagne",
+        "age": 30,
+        "role": "Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm legbreak",
+        "international_debut": {
+            "test": "7 October 2018",
+            "odi": "14 January 2020",
+            "t20": "N/A"
+        },
+        "bio": "Marnus Labuschagne has quickly risen to prominence with his solid technique and consistent performances. He has become a reliable top-order batsman for Australia in Test cricket."
+    },
+    {
+        "country": "Australia",
+        "name": "Aaron Finch",
+        "age": 37,
+        "role": "Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Slow left-arm orthodox",
+        "international_debut": {
+            "test": "7 October 2018",
+            "odi": "11 January 2013",
+            "t20": "12 January 2011"
+        },
+        "bio": "Aaron Finch is known for his explosive batting in limited-overs cricket. As a former captain of the Australian ODI and T20 teams, he has played many match-winning innings at the top of the order."
+    }
+]
+ 

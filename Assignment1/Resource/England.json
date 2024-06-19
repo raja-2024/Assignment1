@@ -1,0 +1,101 @@
+[
+    {
+        "country": "England",
+        "name": "Joe Root",
+        "age": 33,
+        "role": "Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm offbreak",
+        "international_debut": {
+            "test": "13 December 2012",
+            "odi": "11 January 2013",
+            "t20": "22 December 2012"
+        },
+        "bio": "Joe Root is one of the premier batsmen in world cricket, known for his technical proficiency and consistency. He has been a key player for England in all formats and has also served as the Test captain."
+    },
+    {
+        "country": "England",
+        "name": "Ben Stokes",
+        "age": 32,
+        "role": "Allrounder",
+        "batting_style": "Left-hand bat",
+        "bowling_style": "Right-arm fast-medium",
+        "international_debut": {
+            "test": "5 December 2013",
+            "odi": "25 August 2011",
+            "t20": "23 September 2011"
+        },
+        "bio": "Ben Stokes is an explosive allrounder known for his match-winning abilities with both bat and ball. He has played several iconic innings and is renowned for his aggressive and fearless approach."
+    },
+    {
+        "country": "England",
+        "name": "Jofra Archer",
+        "age": 29,
+        "role": "Bowler",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm fast",
+        "international_debut": {
+            "test": "14 August 2019",
+            "odi": "3 May 2019",
+            "t20": "5 May 2019"
+        },
+        "bio": "Jofra Archer is known for his express pace and ability to bowl deadly yorkers. He made an immediate impact in international cricket and was a key player in England's 2019 World Cup-winning campaign."
+    },
+    {
+        "country": "England",
+        "name": "Jos Buttler",
+        "age": 33,
+        "role": "Wicketkeeper Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "N/A",
+        "international_debut": {
+            "test": "27 July 2014",
+            "odi": "21 February 2012",
+            "t20": "31 August 2011"
+        },
+        "bio": "Jos Buttler is one of the most destructive batsmen in modern cricket, known for his innovative shots and finishing abilities. He is also an exceptional wicketkeeper and has been a crucial player for England."
+    },
+    {
+        "country": "England",
+        "name": "Stuart Broad",
+        "age": 38,
+        "role": "Bowler",
+        "batting_style": "Left-hand bat",
+        "bowling_style": "Right-arm fast-medium",
+        "international_debut": {
+            "test": "9 December 2007",
+            "odi": "30 August 2006",
+            "t20": "28 August 2006"
+        },
+        "bio": "Stuart Broad is a veteran fast bowler known for his ability to swing the ball and take crucial wickets. He has had a long and successful career with many match-winning performances for England."
+    },
+    {
+        "country": "England",
+        "name": "Eoin Morgan",
+        "age": 37,
+        "role": "Batsman",
+        "batting_style": "Left-hand bat",
+        "bowling_style": "Right-arm medium",
+        "international_debut": {
+            "test": "27 May 2010",
+            "odi": "5 August 2006",
+            "t20": "5 June 2009"
+        },
+        "bio": "Eoin Morgan is renowned for his leadership and aggressive batting. As the captain, he led England to their first-ever World Cup win in 2019, revolutionizing their approach to limited-overs cricket."
+    },
+    {
+        "country": "England",
+        "name": "Jonny Bairstow",
+        "age": 34,
+        "role": "Wicketkeeper Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "N/A",
+        "international_debut": {
+            "test": "17 May 2012",
+            "odi": "16 September 2011",
+            "t20": "23 September 2011"
+        },
+        "bio": "Jonny Bairstow is known for his aggressive batting and reliable wicketkeeping. He has been a key player for England in all formats and is particularly noted for his ability to score quickly in limited-overs cricket."
+    }
+]
+
