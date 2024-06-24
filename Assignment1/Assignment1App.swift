@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct Assignment1App: App {
+
+    @AppStorage("userID") var userID: String = ""
+
     var body: some Scene {
         WindowGroup {
-            LogInScreen()
+            NavigationStack {
+                if !userID.isEmpty {
+                    DashboardScreen(userName: userID)
+                } else {
+                    LogInScreen()
+                }
+            }
         }
     }
 }

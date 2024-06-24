@@ -9,28 +9,28 @@ import SwiftUI
 
 struct LogInScreen: View {
 
+    @AppStorage("userID") var userID: String = ""
     @State private var username: String = ""
     @State private var password: String = ""
     @State private var enableLogIn: Bool = false
     var body: some View {
-        NavigationStack {
-            ZStack {
-                ImageView(image: Image("login"))
-                VStack {
-                    LoginView(userName: $username, password: $password)
-                        .frame(height: 260)
-                    CTAView(title: "LogIn") {
-                        enableLogIn = !username.isEmpty && !password.isEmpty
-                    }
-                    .padding(16)
+        ZStack {
+            ImageView(image: Image("login"))
+            VStack {
+                LoginView(userName: $username, password: $password)
+                    .frame(height: 260)
+                CTAView(title: "LogIn") {
+                    enableLogIn = !username.isEmpty && !password.isEmpty
+                    userID = enableLogIn ? username : ""
                 }
+                .padding(16)
             }
-            .navigationDestination(isPresented: $enableLogIn) {
-                DashboardScreen(userName: username)
-            }
-            .onDisappear(perform: resetCred)
-            .ignoresSafeArea()
         }
+        .navigationDestination(isPresented: $enableLogIn) {
+            DashboardScreen(userName: username)
+        }
+        .onDisappear(perform: resetCred)
+        .ignoresSafeArea()
     }
 
     private func resetCred() {
