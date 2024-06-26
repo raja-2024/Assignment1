@@ -37,14 +37,6 @@ struct DashboardScreen: View {
             }
         }
         .navigationTitle("Player List")
-        .onAppear {
-            if countries.isEmpty {
-                let india = Country(name: "India")
-                let australia = Country(name: "Australia")
-                let england = Country(name: "England")
-                countries = [india, australia, england]
-            }
-        }
         .sheet(isPresented: $showAddNewPlayerScreen, content: {
             AddNewPlayerScreen(countries: $countries, isPresented: $showAddNewPlayerScreen)
         })

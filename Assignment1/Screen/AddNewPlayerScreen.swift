@@ -68,6 +68,15 @@ struct AddNewPlayerScreen: View {
                     player.internationalDebut.t20 = t20Debue.formatted()
                     player.country = selectedCountry
                     countries[index].players.append(player)
+                } else {
+                    var country = Country(name: selectedCountry)
+                    player.role = role
+                    player.internationalDebut.test = testDebue.formatted()
+                    player.internationalDebut.odi = oneDayDebue.formatted()
+                    player.internationalDebut.t20 = t20Debue.formatted()
+                    player.country = selectedCountry
+                    country.players.append(player)
+                    countries.append(country)
                 }
                 isPresented = false
             }

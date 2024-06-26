@@ -14,20 +14,19 @@ class Country: ObservableObject, Identifiable {
 
     init(name: String) {
         self.name = name
-        self.players = existingPalyers
     }
 
-    var existingPalyers: [Player] {
-        if let url = Bundle.main.url(forResource: name, withExtension: "json") {
-            do {
-                let data = try Data(contentsOf: url)
-                return try JSONDecoder().decode([Player].self, from: data)
-            } catch {
-                print("Error decoding JSON: \(error)")
-            }
-        } else {
-            print("JSON file not found")
-        }
-        return []
-    }
+//    var existingPalyers: [Player] {
+//        if let url = Bundle.main.url(forResource: name, withExtension: "json") {
+//            do {
+//                let data = try Data(contentsOf: url)
+//                return try JSONDecoder().decode([Player].self, from: data)
+//            } catch {
+//                print("Error decoding JSON: \(error)")
+//            }
+//        } else {
+//            print("JSON file not found")
+//        }
+//        return []
+//    }
 }

@@ -16,18 +16,19 @@ struct PlayerFrontCardView: View {
                 BlurView()
                 VStack(spacing: 0) {
                     GeometryReader { reader in
-                        ImageView(image: Image(player.name),
+                        ImageView(image: Image(systemName: "figure.cricket") ,
                                   enableScalingAnimation: false)
-                            .frame(width: reader.size.width,
-                                   height: reader.size.height)
-                            .clipShape(
-                                .rect(
-                                    topLeadingRadius: 24,
-                                    bottomLeadingRadius: 2,
-                                    bottomTrailingRadius: 2,
-                                    topTrailingRadius: 24
-                                )
+                        .foregroundStyle(.white)
+                        .frame(width: reader.size.width,
+                               height: reader.size.height)
+                        .clipShape(
+                            .rect(
+                                topLeadingRadius: 24,
+                                bottomLeadingRadius: 2,
+                                bottomTrailingRadius: 2,
+                                topTrailingRadius: 24
                             )
+                        )
                     }
                     HStack {
                         VStack(alignment: .leading, spacing: -8) {
