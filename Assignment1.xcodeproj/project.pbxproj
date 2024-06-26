@@ -27,6 +27,10 @@
 		350399202C1C817500B8BD77 /* PlayerFrontCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503991F2C1C817500B8BD77 /* PlayerFrontCardView.swift */; };
 		350399222C1C821C00B8BD77 /* PlayerCardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350399212C1C821C00B8BD77 /* PlayerCardBackView.swift */; };
 		350399242C1D907300B8BD77 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350399232C1D907300B8BD77 /* ImageView.swift */; };
+		350399262C296B9D00B8BD77 /* AddNewPlayerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350399252C296B9D00B8BD77 /* AddNewPlayerScreen.swift */; };
+		350399282C2979EF00B8BD77 /* UserInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350399272C2979EF00B8BD77 /* UserInputField.swift */; };
+		3503992A2C2981D900B8BD77 /* UserInputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350399292C2981D900B8BD77 /* UserInputTextView.swift */; };
+		3503992C2C29968700B8BD77 /* EditPlayerInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503992B2C29968700B8BD77 /* EditPlayerInfoScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +55,10 @@
 		3503991F2C1C817500B8BD77 /* PlayerFrontCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerFrontCardView.swift; sourceTree = "<group>"; };
 		350399212C1C821C00B8BD77 /* PlayerCardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCardBackView.swift; sourceTree = "<group>"; };
 		350399232C1D907300B8BD77 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		350399252C296B9D00B8BD77 /* AddNewPlayerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPlayerScreen.swift; sourceTree = "<group>"; };
+		350399272C2979EF00B8BD77 /* UserInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputField.swift; sourceTree = "<group>"; };
+		350399292C2981D900B8BD77 /* UserInputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputTextView.swift; sourceTree = "<group>"; };
+		3503992B2C29968700B8BD77 /* EditPlayerInfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPlayerInfoScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,8 @@
 				3503991F2C1C817500B8BD77 /* PlayerFrontCardView.swift */,
 				350399212C1C821C00B8BD77 /* PlayerCardBackView.swift */,
 				350399232C1D907300B8BD77 /* ImageView.swift */,
+				350399272C2979EF00B8BD77 /* UserInputField.swift */,
+				350399292C2981D900B8BD77 /* UserInputTextView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -133,6 +143,8 @@
 				3503990D2C1C3DC900B8BD77 /* DashboardScreen.swift */,
 				350398F12C1B48A500B8BD77 /* LogInScreen.swift */,
 				3503991D2C1C6E5100B8BD77 /* PlayerInfoScreen.swift */,
+				350399252C296B9D00B8BD77 /* AddNewPlayerScreen.swift */,
+				3503992B2C29968700B8BD77 /* EditPlayerInfoScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -223,6 +235,10 @@
 				350399242C1D907300B8BD77 /* ImageView.swift in Sources */,
 				350398F22C1B48A500B8BD77 /* LogInScreen.swift in Sources */,
 				350398F02C1B48A500B8BD77 /* Assignment1App.swift in Sources */,
+				3503992A2C2981D900B8BD77 /* UserInputTextView.swift in Sources */,
+				350399282C2979EF00B8BD77 /* UserInputField.swift in Sources */,
+				350399262C296B9D00B8BD77 /* AddNewPlayerScreen.swift in Sources */,
+				3503992C2C29968700B8BD77 /* EditPlayerInfoScreen.swift in Sources */,
 				350399092C1C3C5C00B8BD77 /* SecureInputField.swift in Sources */,
 				3503991C2C1C6DD600B8BD77 /* PlayerCardView.swift in Sources */,
 				350399002C1B592900B8BD77 /* BlurView.swift in Sources */,

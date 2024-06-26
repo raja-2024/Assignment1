@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PlayerFrontCardView: View {
-    let player: Player
+    @Binding var player: Player
 
     var body: some View {
         ZStack {
@@ -52,5 +52,5 @@ struct PlayerFrontCardView: View {
 }
 
 #Preview {
-    PlayerFrontCardView(player: Player())
+    PlayerFrontCardView(player: .constant(Player()))
 }

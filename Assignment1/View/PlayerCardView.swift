@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PlayerCardView: View {
-    let player: Player
+    @Binding var player: Player
     
     private let widthDiff: CGFloat = 40
     private let heightDiff: CGFloat = 40
@@ -17,7 +17,7 @@ struct PlayerCardView: View {
         GeometryReader { reader in
             ZStack {
                 // Back View or Player Detail Card
-                PlayerCardBackView(player: player)
+                PlayerCardBackView(player: $player)
                     .frame(width: reader.size.width / 2 + (1.5*widthDiff),
                            height: reader.size.height / 2 + heightDiff)
                     .offset(x: reader.size.width / 2 - (2*widthDiff + 12),
@@ -29,7 +29,7 @@ struct PlayerCardView: View {
                     }
                     .zIndex(isBackCardTapped ? 1 : 0)
                 // Front view or Player Image and name
-                PlayerFrontCardView(player: player)
+                PlayerFrontCardView(player: $player)
                     .frame(width: reader.size.width / 2 + (1.5*widthDiff),
                            height: reader.size.height / 2 + heightDiff)
                     .padding(16)
@@ -44,5 +44,5 @@ struct PlayerCardView: View {
 }
 
 #Preview {
-    PlayerCardView(player: Player())
+    PlayerCardView(player: .constant(Player()))
 }

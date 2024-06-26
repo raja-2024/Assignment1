@@ -7,16 +7,16 @@
 
 import UIKit
 
-struct Player: Decodable, Identifiable {
+class Player: ObservableObject, Decodable, Identifiable {
     let id = UUID()
-    let country: String
-    let name: String
-    let age: Int
-    let role: String
-    let battingStyle: String
-    let bowlingStyle: String
-    let internationalDebut: InternationalDebut
-    let bio: String
+    var country: String
+    var name: String
+    var age: Int
+    var role: String
+    var battingStyle: String
+    var bowlingStyle: String
+    var internationalDebut: InternationalDebut
+    var bio: String
 
     enum CodingKeys: String, CodingKey {
         case name, 
@@ -30,25 +30,25 @@ struct Player: Decodable, Identifiable {
     }
 
     init() {
-        self.name = "Virat"
-        self.age = 30
-        self.role = "Batsman"
-        self.battingStyle = "Right Hand"
-        self.bowlingStyle = "Right Hand"
+        self.name = ""
+        self.age = 0
+        self.role = ""
+        self.battingStyle = ""
+        self.bowlingStyle = ""
         self.internationalDebut = InternationalDebut()
-        self.bio = "Virat Kohli is one of the most prolific batsmen in modern cricket. Known for his aggressive playing style and consistency, he has set numerous records and is considered one of the greatest batsmen of all time."
-        self.country = "India"
+        self.bio = ""
+        self.country = ""
     }
 }
 
-struct InternationalDebut: Decodable {
-    let test: String
-    let odi: String
-    let t20: String?
+class InternationalDebut: ObservableObject, Decodable {
+    var test: String
+    var odi: String
+    var t20: String
 
     init() {
-        self.test = "20 June 2011"
-        self.odi = "18 August 2008"
-        self.t20 = "12 June 2010"
+        self.test = ""
+        self.odi = ""
+        self.t20 = ""
     }
 }

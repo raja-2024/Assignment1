@@ -7,15 +7,17 @@
 
 import Foundation
 
-struct Country: Identifiable {
+class Country: ObservableObject, Identifiable {
     let id: String = UUID().uuidString
-    let name: String
+    var name: String
+    @Published var players: [Player] = []
 
     init(name: String) {
         self.name = name
+        self.players = existingPalyers
     }
 
-    var players: [Player] {
+    var existingPalyers: [Player] {
         if let url = Bundle.main.url(forResource: name, withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
